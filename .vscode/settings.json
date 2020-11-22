@@ -1,0 +1,64 @@
+// {
+//     "editor.codeActionsOnSave": null
+// }
+
+{
+    "workbench.editor.tabSizing": "shrink",
+  
+    "explorer.decorations.colors": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.tslint": true,
+      "source.fixAll.eslint": true
+    },
+    "editor.insertSpaces": true,
+    "editor.renderIndentGuides": true,
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "editor.matchBrackets": "always",
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on", 
+    "editor.rulers": [120],
+  
+    "[html]": {
+      // "editor.matchBrackets": false,
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+  
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "vue-html": "html"
+    },
+  
+    "prettier.trailingComma": "all",
+    "eslint.alwaysShowStatus": true,
+  
+    "javascript.updateImportsOnFileMove.enabled": "always",
+  
+    "html.format.wrapAttributes": "force",
+    "workbench.colorTheme": "Cobalt2",
+    "javascript.preferences.quoteStyle": "single",
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.zoomLevel": 0,
+    "bracket-pair-colorizer-2.colors": [
+      "Gold",
+      "Orchid",
+      "LightSkyBlue",
+  ],
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  "files.autoSave": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "launch": {
+  
+    "configurations": [],
+    "compounds": []
+  },
+  }
